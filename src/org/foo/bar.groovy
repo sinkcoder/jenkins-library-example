@@ -1,5 +1,6 @@
+package org.foo
 class HelloWorld {
- static void main(args) {
-   println "Hello World"	
- }
+  static def hello(script, args) {
+    script.sh "Hello World!"
+  }
 }
